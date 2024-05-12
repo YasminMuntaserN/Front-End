@@ -1,0 +1,144 @@
+/***** Iphone******/
+@media (max-width: 768px) {
+  header {
+    /* display: none; */
+    display: none;
+  }
+  .menu {
+    position: absolute;
+    left: 10px;
+    width: 800px;
+    display: block;
+    z-index: 2;
+  }
+  .logo {
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    z-index: 2;
+    padding: 10px;
+    left: 250px;
+  }
+  img {
+    position: absolute;
+    left: 360px;
+    z-index: 2;
+    width: 60px;
+    height: 60px;
+  }
+  .links a {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  .home .container {
+    width: 414px;
+    position: absolute;
+    left: 0;
+    top: 100px;
+  }
+  .home .container h1 {
+    font-size: 30px;
+  }
+  .home .container p {
+    font-size: 20px;
+  }
+  .collapse {
+    background-color: red;
+    width: 100%;
+  }
+  .about .container {
+    position: absolute;
+    left: 0;
+    top: 600px;
+  }
+  .container .heading {
+    width: max-content;
+    margin-top: 200px;
+    margin-left: 0;
+  }
+  .about .container .row .info h3 {
+    font-size: 25px;
+  }
+  .about .container .row .box {
+    width: 100%;
+    padding: 50px 100px;
+  }
+  .Skills .container {
+    position: absolute;
+    left: 0;
+    top: 2500px;
+  }
+  .Skills .container .tittle {
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  .Skills .container .professional-skills {
+    margin-top: 50px;
+  }
+  .Skills .container .professional-skills .circle {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .Skills .container .professional-skills .circle h5 {
+    text-align: center;
+  }
+  .contact .container {
+    position: absolute;
+    left: 0;
+    top: 4500px;
+  }
+  .contact .container .box {
+    margin-top: -50px;
+    margin-bottom: 50px;
+  }
+  footer {
+    position: absolute;
+    left: 200px;
+    top: 5500px;
+    width: 100%;
+  }
+}
+
+/***** Ipad ******/
+@media (width: 768px) {
+  .about .counter {
+    margin-left: 0px;
+    margin-bottom: -900px;
+  }
+  .about .info {
+    margin-left: 0px;
+  }
+  .logo {
+    margin-left: 400px;
+  }
+  img {
+    margin-left: 400px;
+  }
+  .home .container {
+    margin-left: 200px;
+  }
+  .about .container,
+  .Skills .container,
+  .contact .container {
+    padding-left: 240px;
+  }
+  .about .counter {
+    margin-left: -100px;
+  }
+  .professional-skills .circle {
+    padding-right: 200px;
+  }
+  .form {
+    margin-left: 200px;
+    margin-top: -50px;
+  }
+  .contact .container .box {
+    margin-left: -200px;
+  }
+  footer {
+    margin-left: -170px;
+  }
+}
